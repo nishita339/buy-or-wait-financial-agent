@@ -16,10 +16,17 @@ A deterministic Python engine that evaluates financial requests and recommends w
 
 ## How to Run
 
+### 1. Interactive Web Application (Streamlit)
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+This opens the interactive web dashboard where you can inspect user profiles, simulate 90-day cash flow projections, and test purchase affordability decisions in real-time.
+
+### 2. Batch Processing CLI
 ```bash
 python code/main.py
 ```
-
 This will:
 1. Load all dataset files from `dataset/`
 2. Process all financial requests
